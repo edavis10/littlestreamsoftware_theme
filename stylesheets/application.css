@@ -1,0 +1,51 @@
+@import url(../../../stylesheets/application.css);
+
+/* Little Stream Software theme */
+/* Copyright Eric Davis, Little Stream Software */
+/* */
+/* Ask before using */
+
+/* Positioning */
+#top-menu { height: 140px; }
+#logo {height: 95px; margin-top: 30px; margin-bottom: 15px; margin-left: 20px; }
+#breadcrumb {margin-top: 97px; } /* #header + #logo */
+#main { top: 38px; }
+#footer { position: relative; top: 28px; padding-left: 0px; }
+#main-menu { background: white; margin-top: 0;}
+
+/* Colors and styles, bling bling */
+body { background: #FFFFFF; }
+a, a:link, a:visited { color: #009DDC; }
+#sidebar a, #sidebar a:link, #sidebar a:visited {color: #009DDC;}
+hr { margin: 10px 0px; } /* Reset extra wide hr */
+
+#top-menu { background: none;  height: 140px; }
+#header { background: none; }
+#breadcrumb { background: #009DDC; color: #FFFFFF; padding-left: 20px; font-weight: bold; }
+#breadcrumb a { color: #FFFFFF; }
+#top-menu-items { padding-left: 8px; border-bottom-left-radius: 10px; -moz-border-bottom-left-radius: 10px;-webkit-bottom-border-radius:10px; }
+#top-menu-items, #account-nav { background: #009DDC; }
+#logo a { color: black; display: none; } /* TODO: image */
+#logo {background: url(../images/logo-small.gif) no-repeat; }
+#footer { background: #79B04C; color: #FFFFFF; }
+#footer a { color: #FFFFFF; }
+
+/* Top menu */
+#header li {border-left: 1px solid #009DDC;} /* line in between menu items */
+#account-nav li a:hover, #account li li a:hover { background-color:#64C8EB; }
+/* Drop down menus */
+#header li.drop-down > a:hover  { background-color:#64C8EB; }
+#header li.drop-down.open > a { color: #009DDC; }
+#header li.drop-down li > a { margin-top: 0; margin-bottom: 0; }
+#header li.drop-down li > a:hover, #main-menu li a.selected, #main-menu li a:hover { background-color: #009DDC; }
+#header li > ul { max-height: 800px; overflow-y: auto; } /* Large lists are capped and have internal scroll */
+
+
+/* Side menu */
+#main-menu { background: white; }
+#main-menu ul { border-top: none; border-bottom: none; }
+#main-menu li { background: #FFFFFF; border-top: none; border-bottom: none; }
+
+
+#content div.issue { border: 3px solid #009DDC; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; margin-top: 25px; }
+
